@@ -1,0 +1,6 @@
+git init
+git add o le puede dar git rm si se quiere eliminar
+commit -m "prueba"
+
+git add hsitoruas.txt
+git rm hsitoruas.txt

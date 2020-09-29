@@ -1,0 +1,29 @@
+Comandos
+
+pwd saber en cual carpeta estoy
+
+ls todos los archivos dentro de la carpeta en la que estoy
+ls -al todos los archivos hasta los ocultos
+Clear limpiar consula
+
+cd .. salir de la carpeta 
+
+mkdir crear carpeta
+
+touch crear archivo 
+
+cat ver el contenido de un archivo 
+
+history ver los comandos que ya he introducido
+
+rm vacio.txt eliminar archivos
+
+rm --help ver las explicaciones de comandos
+
+con el comando code se abre visual code
+
+si solo se hace un commit con git commit se abre un lugar extraño
+shift + i escribir texto del lugar extraño
+scape shift zz salir del lugares extraños
+
+git log muestra todos los comits realizados y para salirse de ahi se introduce "q"
