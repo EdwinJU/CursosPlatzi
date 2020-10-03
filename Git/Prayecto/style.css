@@ -50,3 +50,8 @@ body
     background: white;
     padding: 1em;
 }
+#footer{
+    text-align: center;
+    color: teal;
+    background-color: coral;
+}
