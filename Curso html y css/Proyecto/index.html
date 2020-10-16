@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Lista de ingredientes</h1>
+    </header>
+    <main>
+      <ul>
+        <li>Frutas</li>
+        <ol>
+          <li>Manzana</li>
+          <li>Platano</li>
+        </ol>
+      </ul>
+      <ul>
+        <li>Carnes</li>
+        <ol>
+          <li>Pollo</li>
+          <li>Bistec</li>
+        </ol>
+      </ul>
+      <ul>
+        <li>Verduras</li>
+        <ol>
+          <li>
+            <img src="./css/pexels-pixabay-144248.jpg" alt="" />
+            Tomate
+          </li>
+          <li>Zanahoria</li>
+          3
+          <li>
+            <a
+              href="https://www.petitchef.es/recetas/aperitivo/papas-al-horno-estilo-americano-baked-potatoes-fid-925761"
+              >papa</a
+            >
+          </li>
+        </ol>
+      </ul>
+
+      <!--<form action="">
+        <label for="hora">
+          <span>Hora</span>
+          <input type="time" id="hora" name="hora" />
+        </label>
+        <label for="dia">
+          <span>Día</span>
+          <input type="date" id="dia" name="dia" />
+        </label>
+        <label for="semana">
+          <span>Semana</span>
+          <input type="week" id="semana" name="semana" />
+        </label>
+        <label for="mes">
+          <span>Mes</span>
+          <input type="month" id="mes" name="mes" />
+        </label>
+        <input type="submit" />
+      </form>-->
+      <form action="">
+        <label for="calendario">
+          <span>Calendario</span>
+          <input type="datetime-local" name="calendario" id="calendario" />
+        </label>
+        <input type="submit" />
+  </form>
+
+  <form action="">
+    <label for="nombre">
+        <span>¿Cuál es tu nombre?</span>
+        <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+    </label>
+    <label for="correo">
+        <span>¿Cuál es tu correo?</span>
+        <input type="email" id="correo" name="correo" autocomplete="email" required>
+    </label>
+    <label for="pais">
+        <span>¿De que país nos escribes?</span>
+        <input type="text" id="pais" name="pais" autocomplete="country" required>
+    </label>
+    <label for="cp">
+        <span>Código postal</span>
+        <input type="text" id="cp" name="cp" autocomplete="postal-code" required>
+    </label>
+    <input type="submit">
+</form>
+
+<form action="">
+    <label for="cursos">
+      <span>Selecciona un Curso</span>
+      <input list="cursos" required name="cursos" />
+      <datalist id="cursos">
+        <option value="Curso Definitivo de HTML y CSS"></option>
+        <option value="CSS"></option>
+        <option value="Pascal"></option>
+        <option value="Java"></option>
+        <option value="JavaScript"></option>
+        <option value="React"></option>
+        <option value="Angular"></option>
+        <option value="Python"></option>
+        <option value="React Native"></option>
+        <option value="Curso de Git & GitHub"></option>
+        <option value="Fundamentos de JavaScript"></option>
+        <option value="Java Orientado a Objetos"></option>
+      </datalist>
+    </label>
+    <input type="submit" />
+  </form>
+    </main>
+    <footer>
+      <p>Creado con amor</p>
+    </footer>
+  </body>
+</html>

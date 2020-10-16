@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box; /*le dice al navegador que sume el border, padding y magin en el 100% del width esto siempre debe ir en todo css*/
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  height: 500px;
+  border: 10px solid grey;
+  padding: 20px 35px;
+}

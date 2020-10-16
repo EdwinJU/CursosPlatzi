@@ -1,0 +1,27 @@
+.main-nav {
+  margin-top: 10px;
+  list-style: none; /*quita los puntos de los li*/
+  padding-left: 0; /*espacio interno al lado izquierdo*/
+  background-color: #13a4a4;
+}
+.main-nav__item {
+  display: inline-block; /*los items los cambia a horizontal*/
+}
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none; /*Quita la linea de abajo de los items*/
+}
+
+/*pseudo clases*/
+.main-nav__item a:hover { /* hover=cuando el mouse esta sobre el elemento*/
+  color: blue;
+}
+.main-nav__item a:active { /* active=al darle click*/
+  color: red;
+}
+/*pseudo elemento*/
+.main-nav__item a::after { /*para agregar algo a algun elemento en este caso se especifica que despues de cada a se le agregue un |*/
+  content: " | ";
+}
