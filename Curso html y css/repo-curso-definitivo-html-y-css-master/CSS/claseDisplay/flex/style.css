@@ -13,6 +13,7 @@ body {
   border: 0.3rem solid black;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .box {
   height: 10rem;

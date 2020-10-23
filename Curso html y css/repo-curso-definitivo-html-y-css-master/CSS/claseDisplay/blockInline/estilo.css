@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%; /*Esto setea que 1 rem es 10px para haci evitar hacer calculos */
+  }
+.head{
+    background-color: thistle;
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    position: relative;
+    font-size: 2rem;
+}
+.nav-head{
+    position: absolute;
+    right: 0;
+    
+}
+.nav-list{
+    position: relative;
+    list-style: none;
+    bottom: 30px;
+
+    
+}
+.nav-list > .list-item{
+    padding: 6px;
+    font-size: 1.6rem;
+    display: inline-block;
+
+}
+
+.main{
+
+    height: 600px;
+    position: relative;
+
+    width: 100%;
+    
+}
+.courses{
+    background-color: salmon;
+    display: inline-block;
+    position: relative;
+    font-size: 2rem;
+    padding: 10px;
+    height: 100%;
+    width: 20%;
+}
+.couse-list{
+    display: block;
+
+}
+.description{
+    background-color: slateblue; 
+    display: inline-block;
+    padding: 20px;
+    position: absolute;
+    height: 100%;
+    width: 60%;    
+    font-size: 2rem;
+    
+}
+.prueba{
+    background-color: yellow;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 20%;  
+    font-size: 2rem;
+    right: 0;
+
+}
+
+.footer {
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    background-color: orange;
+    font-size: 1.6rem;
+    height: 269px;
+  }
+  .item{
+    background-color: thistle;
+    display: block;
+
+    margin-top: 15px;
+    border: solid;
+    border-radius: 10px;
+    height: 120px;
+
+  }
+  a{
+    text-decoration:none;
+  }

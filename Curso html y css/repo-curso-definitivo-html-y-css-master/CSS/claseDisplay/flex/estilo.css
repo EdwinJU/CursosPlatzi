@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+/*header*/
+.head {
+  position: relative;
+  background-color: skyblue;
+  font-size: 2rem;
+  height: 100px;
+  width: 100%;
+}
+.logo {
+  position: relative;
+  font-size: 3rem;
+}
+.nav {
+  position: absolute;
+  right: 0;
+}
+.nav-list {
+  position: relative;
+  bottom: 30px;
+}
+.nav-list li {
+  display: inline-block;
+  padding: 0.6rem;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*Main*/
+
+.main {
+  display: flex; /*Esdtablece que los elementos dentro del main son de estilo flex*/
+  flex-wrap: wrap;/*Acomoda las secciones de acuerdo al tamaño de la pantalla(Responsive)*/
+  position: relative;
+  height: 60rem;
+  font-size: 1.6rem;
+}
+.section {
+  height: 60rem;
+  flex-basis: 10rem;
+}
+.left-section {
+  background-color: yellow;
+  flex-grow: 0.3;/*Establece el tamaño de cuadro*/
+  font-size: 3rem;
+}
+.Description {
+  background-color: yellowgreen;
+  flex-grow: 1;
+
+}
+.rigth-section {
+  background-color: violet;
+  flex-grow: 1;
+
+}
+.courses li{
+    list-style: none;
+    background-color: wheat;
+    display: block;
+    margin-top: 0.6rem;
+    padding: 1rem;
+    border: forestgreen;
+    border-radius: 00.6rem;
+    height: 9rem;
+    width: 30rem;
+}
+
+
+
+
+/*footer*/
+.footer{
+    font-size: 1.6rem;
+    background-color: lemonchiffon;
+    height: 25rem;
+    
+}
+.footer-logo{
+    position: relative;
+    left: 42%;
+    background-color: red;
+    width: 30rem;
+    border: solid;
+    border-radius: 1.6rem;
+    text-align: center;
+    top: 3rem;
+    height: 5rem;
+}
+.text{
+    text-align: center;
+    background-color: rosybrown;
+    border: solid;
+    border-radius: 1.6rem;
+    text-align: center;
+    height: 20rem;
+}
+.footer-text{
+    position: relative;
+    top: 4rem ;
+   
+}

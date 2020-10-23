@@ -4,7 +4,7 @@
   padding: 0;
 }
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; /*Esto setea que 1 rem es 10px para haci evitar hacer calculos */
 }
 p {
   font-size: 1.6rem;

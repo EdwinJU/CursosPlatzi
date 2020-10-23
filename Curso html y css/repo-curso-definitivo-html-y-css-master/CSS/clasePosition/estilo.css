@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%; /*Esto setea que 1 rem es 10px para haci evitar hacer calculos */
+}
+body {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  left: 35%;
+  top: 20%;
+}
+.title {
+  position: relative;
+  background-color: red;
+  border-radius: 8%;
+  border: 2px solid;
+  left: 38%;
+  top: 30px;
+  width: 200px;
+  height: 50px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  position: relative;
+  font-size: 2rem;
+  top:10px;
+}
+.description {
+  background-color: burlywood;
+  border-radius: 5%;
+  border: 2px solid;
+  width: 500px;
+  height: 500px;
+}
+p {
+  position: relative;
+  top: 15%;
+  font-size: 1.6rem;
+  text-align: center;
+}
