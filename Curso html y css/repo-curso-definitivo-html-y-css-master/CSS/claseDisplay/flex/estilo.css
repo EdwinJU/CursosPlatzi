@@ -41,27 +41,33 @@ a {
   display: flex; /*Esdtablece que los elementos dentro del main son de estilo flex*/
   flex-wrap: wrap;/*Acomoda las secciones de acuerdo al tamaño de la pantalla(Responsive)*/
   position: relative;
-  height: 60rem;
   font-size: 1.6rem;
 }
 .section {
-  height: 60rem;
-  flex-basis: 10rem;
+  /*height: 60rem;*/
+  /*flex-basis: 10rem;*/
 }
 .left-section {
   background-color: yellow;
-  flex-grow: 0.3;/*Establece el tamaño de cuadro*/
+  /*flex-grow: 0.3;/*Establece el tamaño de cuadro*/
   font-size: 3rem;
+  width: 100%;
+  min-width: 320px;
+  height: 60rem;
 }
 .Description {
   background-color: yellowgreen;
-  flex-grow: 1;
-
+  /*flex-grow: 1;*/
+  width: 100%;
+  min-width: 320px;
+  height: 60rem;
 }
 .rigth-section {
   background-color: violet;
-  flex-grow: 1;
-
+  /*flex-grow: 1;*/
+  width: 100%;
+  min-width: 320px;
+  height: 60rem;
 }
 .courses li{
     list-style: none;
@@ -109,3 +115,31 @@ a {
     top: 4rem ;
    
 }
+
+
+/*Responsive*/
+ @media (min-width: 600px) {
+  .left-section,
+  .Description {
+    width: 100%;
+  }
+} 
+ @media (min-width: 800px) {
+  .container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .left-section {
+    width: 60%;
+  }
+  .Description {
+    width: 40%;
+  }
+  .rigth-section {
+    width: 100%;
+  }
+
+  .left-section .courses
+
+} 

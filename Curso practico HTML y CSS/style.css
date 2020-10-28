@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+  }
+.head{
+    position: relative;
+    font-size: 1.6rem;
+    font-family: arial,sans-serif;
+
+}
+.nav{
+    position: absolute;
+    right: 0;
+}
+.items{
+    position: relative;
+    top: 3rem;
+}
+.item{
+    display: inline-block;
+    padding: 1rem;
+    list-style: none;
+
+}
+
+
+/*Main*/
+.image{
+    text-align: center;
+    position: relative;
+    top: 15rem;
+}
+#fname{
+    position: relative;
+    left: 87rem;
+    top: 10rem;
+    text-align: center;
+}
+.buttons{
+    display: flex; 
+    flex-wrap: wrap;
+    position: relative;
+    font-size: 1.6rem;
+    justify-content: center;
+    top: 11rem;
+}
+.btn1{
+    margin-right: 2rem;
+}
+
+.info{
+    display: flex; 
+    flex-wrap: wrap;
+    position: relative;
+    font-size: 1.6rem;
+    justify-content: center;
+    top: 16rem;
+    font-family: arial,sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+.lengua{
+    list-style: none;
+    display: inline-block;
+
+}
+
