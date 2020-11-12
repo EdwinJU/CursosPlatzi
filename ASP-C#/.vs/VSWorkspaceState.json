@@ -2,12 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\HolaMundo",
-    "\\HolaMundo\\HolaMundo",
     "\\HolaMundo\\HolaMundo\\Controllers",
     "\\HolaMundo\\HolaMundo\\Views",
     "\\HolaMundo\\HolaMundo\\Views\\Escuela",
     "\\HolaMundo\\HolaMundo\\Views\\Home"
   ],
-  "SelectedNode": "\\HolaMundo\\HolaMundo\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\HolaMundo\\HolaMundo.sln",
   "PreviewInSolutionExplorer": false
 }
