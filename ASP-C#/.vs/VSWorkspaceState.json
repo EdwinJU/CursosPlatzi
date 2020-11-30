@@ -5,7 +5,8 @@
     "\\HolaMundo\\HolaMundo\\Controllers",
     "\\HolaMundo\\HolaMundo\\Views",
     "\\HolaMundo\\HolaMundo\\Views\\Escuela",
-    "\\HolaMundo\\HolaMundo\\Views\\Home"
+    "\\HolaMundo\\HolaMundo\\Views\\Home",
+    "\\HolaMundo\\HolaMundo\\Views\\Shared"
   ],
   "SelectedNode": "\\HolaMundo\\HolaMundo.sln",
   "PreviewInSolutionExplorer": false

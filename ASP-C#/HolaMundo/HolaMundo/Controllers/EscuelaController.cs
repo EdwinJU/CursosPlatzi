@@ -14,6 +14,8 @@ namespace HolaMundo.Controllers
 			escuela.AñoFundacion = 2000;
 			escuela.EscuelaId = Guid.NewGuid().ToString();
 			escuela.Nombre = "Platzi School";
+
+			ViewBag.bolsita = "Estadio";
 			return View(escuela);
 		}
 

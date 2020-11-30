@@ -36,3 +36,4 @@ C:\Users\Edwin\Desktop\Platzi\ASP-C#\HolaMundo\HolaMundo\obj\Debug\netcoreapp3.1
 C:\Users\Edwin\Desktop\Platzi\ASP-C#\HolaMundo\HolaMundo\obj\Debug\netcoreapp3.1\HolaMundo.genruntimeconfig.cache
 C:\Users\Edwin\Desktop\Platzi\ASP-C#\HolaMundo\HolaMundo\obj\Debug\netcoreapp3.1\HolaMundo.csproj.CopyComplete
 C:\Users\Edwin\Desktop\Platzi\ASP-C#\HolaMundo\HolaMundo\obj\Debug\netcoreapp3.1\Razor\Views\Escuela\Index.cshtml.g.cs
+C:\Users\Edwin\Desktop\Platzi\ASP-C#\HolaMundo\HolaMundo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\LayoutGeneral.cshtml.g.cs
