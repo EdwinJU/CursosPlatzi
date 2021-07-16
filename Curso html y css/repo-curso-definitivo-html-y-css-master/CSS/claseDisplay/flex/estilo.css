@@ -89,7 +89,6 @@ a {
     font-size: 1.6rem;
     background-color: lemonchiffon;
     height: 25rem;
-    
 }
 .footer-logo{
     position: relative;
@@ -113,7 +112,6 @@ a {
 .footer-text{
     position: relative;
     top: 4rem ;
-   
 }
 
 
@@ -123,7 +121,7 @@ a {
   .Description {
     width: 100%;
   }
-} 
+}
  @media (min-width: 800px) {
   .container {
     width: 800px;
@@ -142,4 +140,4 @@ a {
 
   .left-section .courses
 
-} 
+}
