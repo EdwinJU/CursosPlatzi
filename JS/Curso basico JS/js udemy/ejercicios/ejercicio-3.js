@@ -3,7 +3,7 @@
 /*Hacer un programa que muestre todos los numeros entre 2 numero introducidos por el usuario*/
 
 var numero1 = parseInt(prompt("Ingrese el primer numero"));
-var numero2 = parseInt(prompt("Ingrese el ultimo numero"));3
+var numero2 = parseInt(prompt("Ingrese el ultimo numero"));
 var numeros = [];
 
 for(var i=numero1; i< numero2; i++){
